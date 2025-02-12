@@ -35,6 +35,7 @@ module.exports = {
   START_MSG: process.env.START_MSG || `HASH-MD Conected` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/d8279f4ca5da23bda7da4.jpg",
+  ALIVE_MSG: process.env.ALIVE_MSG || "Alive ban📍",
   MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
 MENU_MS: process.env.MENU_MS || `menu 2`,
