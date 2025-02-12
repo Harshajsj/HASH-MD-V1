@@ -15,7 +15,7 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94727786760",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
@@ -28,8 +28,8 @@ module.exports = {
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "SAHAS TECH",
-  author: process.env.author || "SAHAS TECH",
+  packname: process.env.packname || "HASH MD",
+  author: process.env.author || "HASH MD",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3", //elevenlabs.io
@@ -48,7 +48,7 @@ module.exports = {
 //------------------------------------------------------------------------------------------------------------------
 
   
-  START_MSG: process.env.START_MSG || `SAHAS-MD Conected` ,
+  START_MSG: process.env.START_MSG || `HASH-MD Conected` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/d8279f4ca5da23bda7da4.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",
