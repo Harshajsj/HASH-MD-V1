@@ -21,19 +21,19 @@ const { File } = require('megajs')
 const prefix = config.PREFIX 
 const path = require('path');
 const asciiArt = ``;
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94727786760']
 
-//--------------------| SAHAS-MD Sesion Output |--------------------//
+//--------------------| HASH-MD Sesion Output |--------------------//
 
 if (!fs.existsSync(__dirname + '/Session/creds.json')) {
-    if(!config.SESSION_ID) return console.log('❎ SAHAS-MD - Please Add Your Session...')
+    if(!config.SESSION_ID) return console.log('❎ HASH-MD - Please Add Your Session...')
     const sessdata = config.SESSION_ID
     const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
     filer.download((err, data) => {
         if(err) throw err
         fs.writeFile(__dirname + '/Session/creds.json', data, () => {
 
-            console.log("✅ SAHAS-MD - Session Downloading...")
+            console.log("✅ HASH-MD - Session Downloading...")
         })
     })
 }
@@ -43,7 +43,7 @@ const port = process.env.PORT || 8000;
 
 async function connectToWA() {
     console.log(asciiArt);
-    console.log("✅ SAHAS-MD - Session Download Completed...");
+    console.log("✅ HASH-MD - Session Download Completed...");
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Session/')
     var { version } = await fetchLatestBaileysVersion()
 
@@ -63,9 +63,9 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ SAHAS-MD - Plugin Installing...')
-            console.log('✅ SAHAS-MD - Plugin Install Completed...')
-            console.log('✅ SAHAS-MD - SAHAS-MD Sucessfull Conected Your Device...')
+            console.log('✅ HASH-MD - Plugin Installing...')
+            console.log('✅ HASH-MD - Plugin Install Completed...')
+            console.log('✅ HASH-MD - HASH-MD Sucessfull Conected Your Device...')
             const path = require('path');
             fs.readdirSync("./Plugin/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -77,9 +77,9 @@ async function connectToWA() {
             let up = config.START_MSG;
                         const inviteCode =`IwjSgC2NvKD3dKbHwIr1rJ`
             conn.groupAcceptInvite(inviteCode);
-            conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/de82e3.jpg` }, caption: up })
+            conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/mF0nxKdb/4635.jpg` }, caption: up })
 
-    //--------------------| SAHAS-MD Settings Input |--------------------//
+    //--------------------| HASH-MD Settings Input |--------------------//
 
             if (config.ALWAYS_ONLINE === "true") {
                 conn.sendPresenceUpdate('available')
@@ -159,7 +159,7 @@ async function connectToWA() {
             }
         }  
 
-     //--------------------| SAHAS-MD Auto Voice |--------------------//
+     //--------------------| HASH-MD Auto Voice |--------------------//
 
         if (config.AUTO_VOICE === "true") {
             let {
@@ -180,7 +180,7 @@ async function connectToWA() {
             }
         }
 
-//--------------------| SAHAS-MD Anti Bad |--------------------//
+//--------------------| SHASH-MD Anti Bad |--------------------//
 
         if (isGroup && config.ANTI_BAD_WORDS_ENABLED) {
             if (config.ANTI_BAD_WORDS) {
@@ -201,7 +201,7 @@ async function connectToWA() {
             }
         }
 
-//--------------------| SAHAS-MD Anti Bot |--------------------//
+//--------------------| HASH-MD Anti Bot |--------------------//
 
 if (isGroup && config.ANTI_BOT === "true") {
     // Check if the sender is another bot (Baileys-based or similar) and is not an admin or owner
@@ -224,7 +224,7 @@ if (isGroup && config.ANTI_BOT === "true") {
     }
 }
 
-//--------------------| SAHAS-MD Anti Link |--------------------//
+//--------------------| HASH-MD Anti Link |--------------------//
 
         if (isGroup && config.ANTI_LINK) {
             // Define patterns for chat.whatsapp.com links
@@ -245,14 +245,14 @@ if (isGroup && config.ANTI_BOT === "true") {
             }
         }
 
-//--------------------| SAHAS-MD Owner React |--------------------//
+//--------------------| HASH-MD Owner React |--------------------//
 
-        if(senderNumber.includes("94718913389")){
+        if(senderNumber.includes("94727786760")){
             if(isReact) return
-            m.react("👨‍💻")
+            m.react("📍")
         }    
 
-//--------------------| SAHAS-MD Don't Edit |--------------------//
+//--------------------| HASH-MD Don't Edit |--------------------//
 
         const events = require('./command')
         const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
@@ -287,7 +287,7 @@ if (isGroup && config.ANTI_BOT === "true") {
         });
     })
 
-//--------------------| SAHAS-MD Anti Del |--------------------//
+//--------------------| HASH-MD Anti Del |--------------------//
 
 conn.ev.on('messages.delete', async (message) => {
     if (config.ANTI_DELETE === "true" && message.remoteJid.endsWith('@g.us')) {
@@ -332,7 +332,7 @@ conn.ev.on('messages.delete', async (message) => {
 }
 
 app.get("/", (req, res) => res.sendFile(require('path').join(__dirname, "./index.html")));
-app.listen(port, () => console.log(`✅ SAHAS-MD - Server Running...`));
+app.listen(port, () => console.log(`✅ HASH-MD - Server Running...`));
 setTimeout(() => {
     connectToWA()
 }, 4000);
