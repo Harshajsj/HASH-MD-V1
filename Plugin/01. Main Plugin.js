@@ -75,13 +75,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
               title: `Runtime ⏰`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -106,7 +106,7 @@ cmd({
       alias: ["online"],
       desc: "Chek Bot Alive",
       category: "main",
-      react: "🧚🏻‍♀️",
+      react: "👋",
       filename: __filename
     },
     
@@ -144,7 +144,7 @@ cmd({
 
           let desc = `*👋 Hello ${pushname}*
 
-*👨‍💻🇱🇰 I'm 𝖲𝖠𝖧𝖠𝖲 𝖬𝖣 Whatsapp Bot*
+*👨‍💻🇱🇰 I'm HASH 𝖬𝖣 Whatsapp Bot*
 
 > *Platform :*  *${os.hostname()}*
 > *Ram Usage :* *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
@@ -153,7 +153,7 @@ cmd({
                                                                                                   
 *🐼 Have A Nice Day 🐼*
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍`
 
 
 
@@ -169,13 +169,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
               title: `I'm Alive Now 👨‍💻`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -210,7 +210,7 @@ cmd({
       alias: ["panel"],
       desc: "Get Bot Menu",
       category: "main",
-      react: "📁",
+      react: "📜",
       filename: __filename
 },
     
@@ -339,7 +339,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
  ${menu.news}
 ╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍`
 
 
 
@@ -355,13 +355,13 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Menu List`,
+              title: `HASH-MD Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -418,16 +418,16 @@ cmd({
 
           let desc = `*👋 Hello ${pushname}*
 
-*👾 ＳＡＨＡＳ-ＭＤ 👨‍💻💗*
+*👾 ＨＡＳＨ-ＭＤ 👨‍💻💗*
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ (ꜱᴀʜᴀꜱ ᴛᴇᴄʜ)*
-*⚡ɴᴜᴍʙᴇʀ* -: 94718913389
-*⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Sahas_Tech
-*⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ʜᴀʀꜱʜᴀ ᴘɪʏᴜᴍᴀʟ (ʜᴀꜱʜ ᴍᴅ)*
+*⚡ɴᴜᴍʙᴇʀ* -: 94727786760
+*⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Hashid
+*⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029Vb5QLmMBlHpbd5XRPs1l
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍`
 
 
 
@@ -443,13 +443,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Owner Information`,
+              title: `HASH-MD Owner Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -508,11 +508,11 @@ cmd({
 
 *👨‍💻SAHAS-MD Support Channels💗*
 
-*Youtube Channel Link:* https://www.youtube.com/@Sahas_Tech
+*Youtube Channel Link:* https://www.youtube.com/@Hash-id
 
-*Whatsapp Channel Link:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+*Whatsapp Channel Link:* https://whatsapp.com/channel/0029Vb5QLmMBlHpbd5XRPs1l
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍`
 
 
 
@@ -528,13 +528,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Support Channels`,
+              title: `HASH-MD Support Channels`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -597,13 +597,13 @@ cmd({
 
 📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 𝖬𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 👇
 
-👨‍💻◦ https://www.youtube.com/@Sahas_Tech
+👨‍💻◦ https://www.youtube.com/@hash-id
 
 📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖥𝗈𝗅𝗅𝗈𝗐 𝖬𝗒 𝖶𝗁𝖺𝗍𝗌𝖺𝗉𝗉 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 👇
 
-👨‍💻◦ https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+👨‍💻◦ https://whatsapp.com/channel/0029Vb5QLmMBlHpbd5XRPs1l
 
-> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍`
 
 
 
@@ -619,13 +619,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Repo Informations`,
+              title: `HASH-MD Repo Informations`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -682,17 +682,17 @@ cmd({
 
           let desc = `👋 𝐇𝐄𝐋𝐋𝐎𝐖 𝐓𝐇𝐄𝐈𝐑 ${senderNumber}
 
-𝐈 𝐀𝐌 𝐒𝐀𝐇𝐀𝐒-𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
+𝐈 𝐀𝐌 𝐇𝐀𝐒𝐇-𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
 
-𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐒𝐀𝐇𝐀𝐒 𝐓𝐄𝐂𝐇 (𝐒𝐀𝐇𝐀𝐒 𝐍𝐄𝐓𝐇𝐒𝐀𝐑𝐀)..
+𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐇𝐀𝐒𝐇 𝐌𝐃 (𝐇𝐀𝐑𝐒𝐇𝐀 𝐏𝐈𝐘𝐔𝐌𝐀𝐋)..
            
 ɢɪᴛʜᴜʙ :    
              
-ʏᴏᴜᴛᴜʙᴇ : https://www.youtube.com/@Sahas_Tech
+ʏᴏᴜᴛᴜʙᴇ : https://www.youtube.com/@hash-id
       
 ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ : https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
-тнαηкѕ ƒσя υѕιηg ʂαԋαʂ-м∂ ωнαтѕαρρ вσт м∂`
+тнαηкѕ ƒσя υѕιηg Hαʂԋ-м∂ ωнαтѕαρρ вσт м∂`
 
 
 
@@ -708,7 +708,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName:'> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
@@ -768,15 +768,15 @@ cmd({
           // Status message to be sent
         
           
-          let desc = `*乂 SAHAS-MD SYSTEM INFORMATION*
+          let desc = `*乂 HASH-MD SYSTEM INFORMATION*
 
 *⏰𝖱𝗎𝗇𝗍𝗂𝗆𝖾:-  ${runtime(process.uptime())}*    
 *📟𝖱𝖺𝗆 𝖴𝗌𝖺𝗀𝖾:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 *⚙️𝖯𝗅𝖺𝗍𝖿𝗈𝗋𝗆:- ${os.hostname()}*
-*👨‍💻𝖮𝗐𝗇𝖾𝗋:- 𝖲𝖺𝗁𝖺𝗌 𝖭𝖾𝗍𝗁𝗌𝖺𝗋𝖺*   
+*👨‍💻𝖮𝗐𝗇𝖾𝗋:- Harsha piyumal*   
 *👾𝖵𝖾𝗋𝗌𝗂𝗈𝗇:- 1.0.0*
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍`
 
        
 
@@ -792,13 +792,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterName: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀꜱʜ ᴍᴅ📍',
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD System Information`,
+              title: `HASH-MD System Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
+              thumbnailUrl: `https://i.ibb.co/mF0nxKdb/4635.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
