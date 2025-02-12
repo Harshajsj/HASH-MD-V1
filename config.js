@@ -7,11 +7,8 @@ module.exports = {
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
   PREFIX: process.env.PREFIX || ".",
   mode: process.env.mode || "public",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94727786760",
-  START_MSG: process.env.START_MSG || `HASH-MD Conected` ,
   ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/d8279f4ca5da23bda7da4.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",
-  MENU_MSG: process.env.MENU_MSG || `Menumsg`,
-  MENU_MS: process.env.MENU_MS || `menu 2`,
+  ALIVE_MSG: process.env.ALIVE_MSG || "i a alive now👀📍",
 
 };
