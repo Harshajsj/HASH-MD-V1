@@ -4,17 +4,9 @@ require("dotenv").config();
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
   SESSION_ID: process.env.SESSION_ID || "NzNg2DhC#npTlh-C0G7J4XJC7cKiX4Utl7KdKPqCK4IT3N9Mvk7s",
-  // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
-    // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
-  // Add Your Custom Prefix 
   mode: process.env.mode || "public",
-  // Add Your Bot Mode 
-  // private = Only Working For Owner Number
-  // public = AnyOne Working
-  // inbox = Only Working  Inbox
-  // groups = only working in group
   OWNER_NUMBER: process.env.OWNER_NUMBER || "94727786760",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
@@ -30,7 +22,6 @@ module.exports = {
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   packname: process.env.packname || "SAHAS TECH",
   author: process.env.author || "SAHAS TECH",
-  //==========================================- API-CONFIGS -==========================================================
   
   START_MSG: process.env.START_MSG || `HASH-MD Conected` ,
 
